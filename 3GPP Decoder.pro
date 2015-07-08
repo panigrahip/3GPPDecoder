@@ -33,15 +33,18 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     preferencedialog.cpp \
     tsharkdecoder.cpp \
-    umtsrlcdecoder.cpp
+    umtsrlcdecoder.cpp \
+    aboutdialog.cpp
 
 HEADERS  += mainwindow.h \
     preferencedialog.h \
     tsharkdecoder.h \
-    umtsrlcdecoder.h
+    umtsrlcdecoder.h \
+    aboutdialog.h
 
 FORMS    += mainwindow.ui \
-    preferencedialog.ui
+    preferencedialog.ui \
+    aboutdialog.ui
 
 DISTFILES +=
 

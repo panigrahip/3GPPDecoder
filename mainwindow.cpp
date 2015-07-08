@@ -19,6 +19,7 @@
 #include "preferencedialog.h"
 #include "tsharkdecoder.h"
 #include "umtsrlcdecoder.h"
+#include "aboutdialog.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -302,4 +303,16 @@ void MainWindow::on_pushButtonClear_clicked()
 {
     ui->textEditDecoded->clear();
     ui->lineEditData->clear();
+}
+
+void MainWindow::on_action_Exit_triggered()
+{
+    QApplication::quit();
+}
+
+void MainWindow::on_action_About_Decoder_triggered()
+{
+    AboutDialog about;
+    about.setModal(true);
+    about.exec();
 }

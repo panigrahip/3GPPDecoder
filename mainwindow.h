@@ -52,6 +52,10 @@ private slots:
 
     void on_pushButtonClear_clicked();
 
+    void on_action_Exit_triggered();
+
+    void on_action_About_Decoder_triggered();
+
 private:
     Ui::MainWindow *ui;    
     void readfile();
