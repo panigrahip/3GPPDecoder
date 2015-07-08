@@ -27,6 +27,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = 3GPPDecoder
 TEMPLATE = app
+win32:RC_ICONS += decoder.ico
 
 
 SOURCES += main.cpp\
