@@ -11,6 +11,6 @@ You can use 3GPPDecoder to decode 3GPP LTE, UMTS and GSM messages for RRC and NA
 
 ## How to get the Setup file
 
-You can also download the 3GPPDecoder executable from 3GLteInfo.com website.
+Download the 3GPPDecoder executable from: [3GPP Decoder Installer](http://www.3glteinfo.com/3gpp-decoder/)
 
 

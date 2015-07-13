@@ -47,7 +47,8 @@ FORMS    += mainwindow.ui \
     preferencedialog.ui \
     aboutdialog.ui
 
-DISTFILES +=
+DISTFILES += \
+    README.md
 
 RESOURCES += \
     images.qrc
