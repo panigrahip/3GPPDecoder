@@ -10,6 +10,12 @@
     <height>726</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
   <property name="windowTitle">
    <string>3GPP Decoder</string>
   </property>
@@ -97,8 +103,8 @@
       <rect>
        <x>10</x>
        <y>20</y>
-       <width>148</width>
-       <height>19</height>
+       <width>178</width>
+       <height>22</height>
       </rect>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout">
@@ -165,7 +171,7 @@
      <x>0</x>
      <y>0</y>
      <width>712</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu_File">
