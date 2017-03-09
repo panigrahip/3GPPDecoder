@@ -59,6 +59,7 @@
     <property name="title">
      <string>Protocol options</string>
     </property>
+
     <widget class="QComboBox" name="comboBoxProtocol">
      <property name="geometry">
       <rect>
@@ -68,10 +69,8 @@
        <height>22</height>
       </rect>
      </property>
-     <property name="currentText">
-      <string/>
-     </property>
     </widget>
+
     <widget class="QPushButton" name="pushButtonDecode">
      <property name="geometry">
       <rect>
